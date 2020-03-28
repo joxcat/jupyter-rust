@@ -1,0 +1,5 @@
+#!/bin/bash
+jupyter-nbconvert --config export.py
+git add doc/*
+git commit -m "Mise a jour de la version web"
+git push
